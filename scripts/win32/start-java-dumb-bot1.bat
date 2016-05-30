@@ -1,0 +1,1 @@
+"%JAVA_HOME%\bin\java" -classpath "*" dendygeeks.tanxees.client.ai.java.dumb.Main bot1

@@ -1,0 +1,1 @@
+java -classpath "*" dendygeeks.tanxees.server.Main
