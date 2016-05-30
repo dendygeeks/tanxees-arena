@@ -28,3 +28,17 @@ gradle run -PplayerId=bot1
 (you may use `bot2` or `bot3` instead)
 
 Start your own AI with modifying the `tanxees.client.ai.java.dumb.Main` class as you wish. Happy hacking!
+
+## Hacking the dumb bot in Python
+
+To use Python bot API, start with a sample `client.ai.python.dumb` repository. To run the project do the following:
+* Get new enough Python 2.7 (e.g. 2.7.10)
+* Run "pip install websocket-client wsaccel"
+* Launch the server
+* Add full path to `client.ai.python/src` to `PYTHONPATH` environment variable (that's the directory that holds Python API, not yet available as a package), e.g. like this:
+``` shell
+export PYTHONPATH=/path/to/client.ai.python/src:$PYTHONPATH
+```
+* Launch "python Bot.py bot1"
+
+Happy hacking! Start with Bot.py as a sample and create a fun-to-watch or clever AI.
