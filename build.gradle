@@ -1,0 +1,17 @@
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+	
+    tasks.withType(Jar) {
+        baseName = "tanxees-$project.name"
+    }
+}
+
+
+task copyJars(type: Copy) {
+    from subprojects.collect { it.tasks.withType(Jar) }
+	from(subprojects.configurations.runtime)
+    into "target"
+}

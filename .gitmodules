@@ -1,0 +1,18 @@
+[submodule "client.ai.python.dumb"]
+	path = client.ai.python.dumb
+	url = ../tanxees.client.ai.python.dumb
+[submodule "client.ai.python"]
+	path = client.ai.python
+	url = ../tanxees.client.ai.python
+[submodule "client.ai.java"]
+	path = client.ai.java
+	url = ../tanxees.client.ai.java
+[submodule "client.ai.java.dumb"]
+	path = client.ai.java.dumb
+	url = ../tanxees.client.ai.java.dumb
+[submodule "server"]
+	path = server
+	url = ../tanxees.server
+[submodule "api.java"]
+	path = api.java
+	url = ../tanxees.api.java
