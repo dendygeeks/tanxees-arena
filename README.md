@@ -1,6 +1,13 @@
 # Tanxees Arena Edition
 ![Tank icon](https://github.com/dendygeeks/tanxees-arena/raw/master/tank-icon.png)
 
+First of all, to give this project a try, [download our release](https://github.com/dendygeeks/tanxees-arena/releases/tag/0.1-alpha).
+It contains the UI client for this game (the only component which source isn't published here)
+
+![Client screenshot](https://cloud.githubusercontent.com/assets/317189/15685211/cde2c34c-277b-11e6-990b-fa687f4b8915.png)
+
+
+
 In this repository you can find the server and API for Java and Python languages.
 
 ## Building
