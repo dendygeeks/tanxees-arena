@@ -1,1 +1,1 @@
-java -classpath "*" dendygeeks.tanxees.client.ai.java.dumb.Main bot1
+java -classpath "lib/java/*:ai/dumb/java/*" dendygeeks.tanxees.client.ai.java.dumb.Main bot1
