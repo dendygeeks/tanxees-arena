@@ -1,1 +1,1 @@
-"%JAVA_HOME%\bin\java" -classpath "*" dendygeeks.tanxees.client.ai.java.dumb.Main bot2
+"%JAVA_HOME%\bin\java" -classpath "lib/java/*;ai/dumb/java/*" dendygeeks.tanxees.client.ai.java.dumb.Main bot2
