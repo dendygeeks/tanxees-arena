@@ -1,1 +1,1 @@
-java -classpath "*" dendygeeks.tanxees.server.Main
+java -classpath "lib/java/*" dendygeeks.tanxees.server.Main
